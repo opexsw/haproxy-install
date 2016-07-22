@@ -10,4 +10,4 @@ default['haproxy-install']['members'] = [{
   "ssl_port" => 4001
 }]
 
-default['haproxy-install']['package']['version'] = nil
+default['haproxy-install']['version'] = nil

@@ -6,7 +6,7 @@
 #
 # All rights reserved - Do Not Redistribute
 #
-node.default['haproxy']['package']['version'] = node['haproxy-install']['package']['version']
+node.default['haproxy']['package']['version'] = node['haproxy-install']['version']
 node.default['haproxy']['members'] = node['haproxy-install']['members']
 
 include_recipe 'haproxy::manual'
